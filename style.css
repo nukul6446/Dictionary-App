@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i){
+    font-family: "Poppins",sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #ae9cff;
+}
+#container{
+    background-color: rgb(238, 244, 249);
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    box-shadow: 0 30px 80px rgba(7, 38, 63, 0.623);
+   border-radius: 10px;
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input{
+    padding:5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff79 ;
+}
+.search-box button{
+    font-style: italic ;
+   font-weight: 200;
+    border-radius: 8px;
+    box-shadow:  0 3px 20px rgba(54, 5, 69, 0.244);
+    background-color: #083d26db;
+    color: azure;
+}
+.result{
+    position: relative;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: transparent;
+  
+    
+}
+.result button{
+    font-size: 10px;
+}
+.result .details{
+   gap: 10px;
+display: flex;
+font-size: 13px;
+color: rgba(3, 17, 30, 0.68);
+}
+.result .word-meaning{
+   font-size: 13px;
+   margin-top: 5px;
+}
+.result .word-example{
+    border-left: 3px solid #2f0dca;
+    padding-left: 8px;
+    font-size: 13px;
+    color: rgb(66, 136, 112);
+    margin-top: 19px;
+}
